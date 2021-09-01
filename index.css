@@ -107,7 +107,7 @@ nav a{
 
 .titles{
     text-align: center;
-    
+    position: relative;
 }
 .left, .right{
     display:inline-block;
@@ -123,8 +123,11 @@ nav a{
 .right{
     width: 55%;
     margin-left: 5%;
-    position: relative;
 }
 .right div{
     position: absolute;
+    top: 40%;
 }
+
+/*BOdy Section Styles*/
+
